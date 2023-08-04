@@ -1,0 +1,175 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 08/09/2017. 
+    Theme Name   : Farmfresh.
+    Description  : Farm Fresh - Organic Food & Eco Farm HTML Template
+    Version      : 1.0.
+    Author       : @Unifytheme.
+    Developed by : @Unifytheme.
+   
+*/
+
+
+
+@media (min-width: 992px) {
+  .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+@media (max-width: 1199px) {
+  footer .footer-Useful-Links,footer .footer-Update {padding-left: 0;}
+  .fresh-bottom .fresh-single-content p {padding: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .counter-number .counter-box i {font-size: 60px;}
+  .counter-number .counter-box .number {font-size: 42px;}
+  .testimonial .info_wrapper .brief-content h6 {padding-left: 40px;}
+  .latest-news .latest-single-content h4 a {font-size: 25px;}
+  .shop-section .Result p {margin-left: 155px;}
+  .categories-sidebar .sidebar-recent-news .post {padding-left: 22px;}
+  .categories-sidebar .sidebar-recent-news .post h6 a {margin-top: 0;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+
+@media (max-width: 991px) {
+  .main-container .navbar-default .navbar-collapse {padding-left: 0;}
+  .farm-fresh img {margin: 60px auto 80px auto;}
+  .counter-number [class*="col-"] {margin-bottom: 50px;}
+  .counter-number,.homepage-vs2-counter .opacity {padding-bottom: 40px;}
+  .homepage-vs2-counter.counter-number {padding-bottom: 0;}
+  .best-sale h6 br {display: none;}
+  .testimonial .info_wrapper .brief-content span:nth-child(2),
+  .testimonial .info_wrapper .brief-content span:nth-child(3) {top: auto;bottom: 35px;}
+  footer [class*="col-"] {margin-bottom: 60px;}
+  footer .bottom-footer {margin-top: 10px;}
+  footer .bottom-footer div {float: none;text-align: center;}
+  footer .bottom-footer form {margin-top: 20px;}
+  .shop-section .Result p {margin-left: 20px;}
+  .shop-details .right-side {padding-top: 60px;}
+  .categories-sidebar {margin-top: 80px;}
+}
+/*(max-width: 991px)*/
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-container .theme-main-menu .navbar-nav>li>a {margin-left: 26px;}
+  .main-container .theme-main-menu .navbar-nav>li:first-child>a {margin-left: 0;}
+  .main-container .navbar-default .navbar-collapse {padding-right: 18px;}
+  footer [class*="col-"] {min-height: 352px;}
+  .Organice-Product .mixitUp_menu ul li {padding: 0 22px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+  .theme-main-menu .navbar-nav>li.dropdown-holder .fa {display: block;}
+  .main-container .logo,.main-container.home-page-vs2 .logo {position: absolute;margin: 0;left:15px;top:5px;z-index: 99;}
+  .main-container .search_option {position: absolute;top:30px;right: 55px;z-index: 99;}
+  .main-container .search_option .search,.home-page-vs2 .container .search_option .search {margin-top: 0;}
+  .main-container .navbar-default {float: none;width: 100%;}
+  .main-container.fixed.home-page-vs2 .logo, header .main-container.fixed .logo,
+  .main-container.fixed.home-page-vs2 .container .search_option .search, header .main-container.fixed .search_option .search {margin: 0;}
+  .main-container .search_option form.dropdown-menu,
+  header .main-container.fixed .search_option form.dropdown-menu,.main-container.home-page-vs2  .search_option form.dropdown-menu {top: 55px;right: -55px;}
+  .main-container .navbar-default .navbar-collapse {float: none;margin: 0;border: none;padding: 0;max-height: 400px;}
+  .navbar-nav {margin: 0;}
+  .main-container .theme-main-menu .navbar-nav>li>a {margin: 0;padding: 0 15px;line-height: 45px;border-bottom: 1px solid rgba(0,0,0,0.05);}
+  .main-container .theme-main-menu .navbar-nav>li:first-child>a {border-top: 1px solid rgba(0,0,0,0.05);}
+  .home-page-vs2 .theme-main-menu .collapse .navbar-nav>li>a {margin: 0;padding: 0 15px;line-height: 45px;border-bottom: 1px solid rgba(255,255,255,0.15);}
+  .home-page-vs2 .theme-main-menu .collapse .navbar-nav>li:first-child>a {border-top: 1px solid rgba(255,255,255,0.15);}
+  .theme-main-menu .navbar-nav>li.dropdown-holder .sub_menu {
+    width: 100%;
+    opacity: 1;
+    display: none;
+    position: static;
+    visibility: visible;
+    -webkit-transform:none;
+            transform:none;
+    -webkit-transition:none;
+    transition:none;
+  }
+  .main-container.fixed.home-page-vs2 .theme-main-menu .collapse .navbar-nav>li>a, header .main-container.fixed .theme-main-menu .navbar-nav>li>a {padding: 0 15px;}
+  .main-container.home-page-vs2 .navbar-default .navbar-collapse {background: rgba(21,21,21,0.95);}
+  .home-page-vs2 .theme-main-menu .navbar-nav>li.dropdown-holder .fa {border-left: 1px solid rgba(255,255,255,0.15);color: #fff;}
+  header .address-list,header .social-icon {float: none;text-align: center;}
+  .Organice-Product .mixitUp_menu ul li {padding: 0 20px;margin: 0;}
+  .Organice-Product .mixitUp_menu ul {padding-bottom: 50px;}
+  .testimonial .info_wrapper .brief-content h6 {padding-left: 15px;padding-right: 15px;}
+  .latest-news .latest-single-content .news-single-content {margin-bottom: 40px;}
+  .gallery-section {margin-top: 100px;}
+  .shop-section .theme-search-box,.shop-section .Result {float: none;}
+  .shop-section .Result p {margin: 10px 0;}
+  .production .product img {margin: 0 auto;}
+  .production .product {margin-bottom: 20px;}
+  .details-tab-text>ul>li {float: none;}
+  .blog-images-categories .left-blog h3>a {font-size: 30px;}
+  .contact-section .single-list {margin:80px 0 0 0;}
+  #theme-main-banner .camera_caption .container h3 {font-size: 25px;line-height: 35px;margin-top: 20px;margin-bottom: 30px;}
+  #theme-main-banner .camera_caption .container a {margin-top: 20px;}
+  #theme-main-banner .camera_caption .container p {margin: 10px 0 20px 0;}
+  #theme-main-banner .camera_caption .container h1 {line-height: 100px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+  #success,#error {
+    width: 84%;
+    height: auto;
+    top: calc(50% - 50px);
+    left: 8%;
+    padding: 30px 10px;
+  }
+  .error-page .submit-section .theme-search-box form,.tab-content .progress {width: 100%;}
+  .error-page .submit-section .theme-search-box {display: block;}
+  .tab-content .tab-pane>p:nth-child(2) span {padding-left: 20px;}
+}
+
+@media (max-width: 600px) {
+  .inner-page-banner .opacity h3 {font-size: 30px;line-height: 38px;margin-bottom: 80px;}
+  .inner-page-banner .opacity {padding-top: 80px;}
+  .error-page {margin: 0;padding: 80px 0;}
+  .blog-images-categories .link-details ul li:last-child {float:none;display: block;margin: 0;}
+  .blog-images-categories .left-blog a {margin-bottom: 20px;}
+  .blog-images-categories .link-details ul li.float_right a {margin: 0 0 40px 0;}
+}
+
+
+@media (max-width: 550px) {
+  .gallery-section .col-xs-6 {width: 100%;}
+  .blog-details .imges-categories .left-blog h3>a {margin-top: 0;}
+  .imges-categories .left-blog .img div {position: static;margin: 10px 0 20px 0;float: none;}
+  .contact-section .single-list {padding-left: 20px;}
+}
+
+
+@media (max-width: 500px) {
+  .counter-number .counter-box i {font-size: 40px;margin-top: 0;}
+  .counter-number .counter-box .number {font-size: 30px;}
+  .Organice-Product .col-xs-6 {width: 100%;}
+  .blog-images-categories .comments_area .border_fix {margin-left: 20px;}
+}
+
+
+@media (max-width: 480px) {
+  .right-side ul:nth-child(3) li:nth-child(6) {display: block;padding: 10px 0 0 0;}
+  .categories-sidebar .sidebar-recent-news .post {padding-left: 15px;}
+  .categories-sidebar .sidebar-recent-news .post h6 a {margin-top: 0;}
+  #theme-main-banner .camera_caption .container h1 {font-size: 60px; line-height: 70px;}
+}
+
+
+@media (max-width: 450px) {
+  .shop-details .right-side .clearfix a,.shop-details .right-side .clearfix ul {float: none;}
+  .shop-details .right-side .clearfix a {margin-top: 15px;}
+}
+
+
+@media (max-width: 400px) {
+  .counter-number .col-xs-6 {width: 100%;}
+  footer .bottom-footer form button {width: 95px;}
+  footer .bottom-footer form input {padding-right: 100px;}
+}

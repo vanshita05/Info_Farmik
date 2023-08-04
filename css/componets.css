@@ -1,0 +1,22 @@
+html
+{
+	font-family: calibri;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	margin:0;
+	padding: 0;
+}
+.navbar-right li
+{
+	text-transform: capitalize;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+ {
+    background-color: #101011 !important;
+}

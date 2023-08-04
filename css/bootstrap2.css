@@ -1,0 +1,367 @@
+html
+{
+	font-family: calibri;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	margin:0;
+	padding: 0;
+}
+.container
+{
+	width: 100%;
+	height: auto;
+}
+.row
+{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+.col-1
+{
+	width: 100px;
+	height: auto;
+	float: left;
+}
+.col-2
+{
+	width: 200px;
+	height: auto;
+	float: left;
+}
+.col-3
+{
+	width: 300px;
+	height: auto;
+	float: left;
+}
+.col-4
+{
+	width: 400px;
+	height: auto;
+	float: left;
+}
+.col-5
+{
+	width: 500px;
+	height: auto;
+	float: left;
+}
+.col-6
+{
+	width: 600px;
+	height: auto;
+	float: left;
+}
+.col-7
+{
+	width: 700px;
+	height: auto;
+	float: left;
+}
+.col-8
+{
+	width: 800px;
+	height: auto;
+	float: left;
+}
+.col-9
+{
+	width:900px;
+	height: auto;
+	float: left;
+}
+.col-10
+{
+	width: 1000px;
+	height: auto;
+	float: left;
+}
+.col-11
+{
+	width: 1100px;
+	height: auto;
+	float: left;
+}
+.col-12
+{
+	width: 1200px;
+	height: auto;
+}
+.clear
+{
+	clear: both;
+}
+.menu
+{
+    width: 100%;
+}
+.img1
+{
+	width: 185px;
+	height: 90px;
+}
+.img1:hover
+{cursor: pointer;}
+.menu ul
+{
+	margin: 0;
+	padding: 0;
+}
+.menu ul li
+{	width:95px;
+	display: block;
+	float: left;
+	text-align: center;
+	padding-top: 50px;
+}
+.menu a
+{
+	text-transform: capitalize;
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	cursor: pointer;
+}
+.menu a:hover
+{
+	color: #52c5fd;
+	cursor: pointer;
+}
+.header
+{
+	width: 100%;
+}
+.img2
+{
+	width: 100%;
+	float: right;
+}
+.img2:hover{cursor: pointer;}
+.aboutarea
+{
+	width: 100%;
+}
+ h2
+{
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 60px;
+	font-size: 44px;
+}
+.para
+{
+	text-align: center;
+	padding: 23px 0px 34px;
+	color: gray;
+	padding-top: 20px;
+}
+.btn1
+{
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    background: #f3c300;
+    padding: 5px 24px;
+    margin-left: 500px;
+    border: 0;
+}
+.btn1:hover
+{
+	background-color: #fd7e14;
+	border-radius: 0px;
+	position: relative;
+	transition: all 0.3s linear;
+	overflow: hidden;
+	cursor: pointer;
+}
+.img3
+{
+	width: 480px;
+	float: left;
+}
+.img3:hover
+{
+	cursor: pointer;
+}
+.color
+{
+	background-color: #212529;
+}
+h3
+{
+	font-size: 30px;
+	text-align: center;
+	color: white;
+	padding-top: 40px;
+}
+.dew
+{
+	width: 1170px;
+	height: 211px;
+}
+.para1
+{
+	text-align: center;
+	padding: 18px 0px 30px;
+	color: white;
+}
+.btn2
+{
+	width: 200px;
+	font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    background: #f3c300;
+    padding: 5px 15px;
+    margin-left: 200px;
+    margin-bottom: 11px;
+}
+.btn2:hover
+{
+	background-color: #fd7e14;
+	border-radius: 0px;
+	position: relative;
+	transition: all 0.3s linear;
+	overflow: hidden;
+	cursor: pointer;
+}
+h1
+{
+	color: black;
+	text-transform: capitalize;
+	text-align: center;
+	padding-top: 80px;
+	font-size: 44px;
+}
+h4
+{
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 20px;
+	font-size: 38px;
+	font-family: calbri;
+}
+b
+{
+	color: #f8b600;
+	text-align: center;
+}
+.btn3
+{
+	width: 200px;
+	font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    background:black;
+    padding: 5px 15px;
+    margin-bottom: 11px;
+    float: left;
+     margin-left: 90px;
+}
+.btn3:hover
+{
+	background-color: #f3c300;
+	border-radius: 0px;
+	position: relative;
+	transition: all 0.2s linear;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn4
+{
+	width: 180px;
+	font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    background:#f3c300;
+    padding: 5px 15px;
+    margin-bottom: 11px;
+    margin-left: 10px;
+}
+.btn4:hover
+{
+	background-color:black;
+	border-radius: 0px;
+	position: relative;
+	transition: all 0.2s linear;
+	overflow: hidden;
+	cursor: pointer;
+}
+.btn5
+{
+	width: 180px;
+	font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 0;
+    text-align: center;
+    font-weight: 600;
+    background:#f3c300;
+    padding: 5px 15px;
+}
+.btnoverlay{position: relative;}
+.btnoverlay .btn5
+{
+	position: absolute;
+	bottom: 30px;
+	left:25%;
+	margin: auto;
+	cursor: pointer;
+}
+.btn5:hover
+{
+	background-color: black;
+}
+.img4
+{
+	width: 600px;
+	float: left;
+}
+.img4:hover{cursor: pointer;}
+.img5
+{
+	width: 350px;
+	border-color: #f9f9ff;
+	margin-top: 30px;
+}
+h5
+{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 30px;
+	padding-bottom: 10px;
+	border-color: #f9f9ff;
+}
+.color1
+{
+	   background-color: #04091e;
+	   text-align: center;
+	   color: white	;
+	   height: 70px;
+	   padding-top: 30px;
+}

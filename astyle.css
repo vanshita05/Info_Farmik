@@ -1,0 +1,9 @@
+.activity
+{
+	border-style: solid;	
+	border-color: black;
+	border-width: 20px;
+	background-color: salmon;
+	width:100px;
+	height: 60px;
+}
